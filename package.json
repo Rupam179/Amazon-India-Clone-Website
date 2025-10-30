@@ -1,0 +1,54 @@
+{
+  "name": "amazon-india-clone",
+  "version": "1.0.0",
+  "description": "A pixel-perfect clone of Amazon India's e-commerce website with responsive design and interactive features",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=8080 --watch=.",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "gh-pages -d .",
+    "lint": "eslint script.js",
+    "format": "prettier --write *.html *.css *.js"
+  },
+  "keywords": [
+    "amazon",
+    "clone",
+    "ecommerce",
+    "india",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "frontend",
+    "web-development"
+  ],
+  "author": {
+    "name": "Rupam Mukherjee",
+    "email": "rupam.mukherjee@email.com",
+    "url": "https://github.com/rupam179"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rupam179/amazon-india-clone.git"
+  },
+  "homepage": "https://rupam179.github.io/amazon-india-clone",
+  "bugs": {
+    "url": "https://github.com/rupam179/amazon-india-clone/issues"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^6.0.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
